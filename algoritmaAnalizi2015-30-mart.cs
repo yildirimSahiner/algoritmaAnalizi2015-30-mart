@@ -25,13 +25,13 @@ public class Test
             if((i % 2 == 0) == ( theList.Find( i ).IsValid()))
                 Console.WriteLine( "bulunamadi" );
 
-        Console.WriteLine( "silme iþlemi tamamlandý" );
+        Console.WriteLine( "silme iÃ¾lemi tamamlandi" );
         PrintList(theList);
 	}
 	   public static void PrintList<AnyType>(LinkedList<AnyType> theList)
     {
         if( theList.IsEmpty())
-            Console.WriteLine( "Boþ liste" );
+            Console.WriteLine( "Bos liste" );
         else
         {
             LinkedListIterator<AnyType> itr = theList.First();
