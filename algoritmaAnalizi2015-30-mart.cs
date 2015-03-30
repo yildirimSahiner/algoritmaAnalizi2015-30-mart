@@ -25,7 +25,7 @@ public class Test
             if((i % 2 == 0) == ( theList.Find( i ).IsValid()))
                 Console.WriteLine( "bulunamadi" );
 
-        Console.WriteLine( "silme iþlemi tamamlandi" );
+        Console.WriteLine( "silme islemi tamamlandi" );
         PrintList(theList);
 	}
 	   public static void PrintList<AnyType>(LinkedList<AnyType> theList)
